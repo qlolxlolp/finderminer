@@ -1,0 +1,47 @@
+{
+    "rtlsdr": {
+        "default_frequencies": [
+            433000000,
+            915000000,
+            2400000000
+        ],
+        "sample_rate": 2048000,
+        "gain": "auto"
+    },
+    "fft": {
+        "sample_size": 1024,
+        "window": "hamming",
+        "overlap": 0.5
+    },
+    "alert": {
+        "smtp": {
+            "server": "smtp.gmail.com",
+            "port": 587,
+            "sender": "your-email@gmail.com",
+            "password": "your-app-password",
+            "recipients": ["recipient@example.com"]
+        },
+        "threshold": {
+            "power": -50,
+            "duration": 5
+        }
+    },
+    "ui": {
+        "font": {
+            "family": "BNazanin",
+            "size": {
+                "title": 16,
+                "normal": 12,
+                "small": 10
+            }
+        },
+        "colors": {
+            "primary": "#2196F3",
+            "secondary": "#FFC107",
+            "background": "#FFFFFF",
+            "text": "#000000",
+            "alert": "#F44336"
+        },
+        "refresh_rate": 100
+    }
+}

@@ -1,0 +1,8 @@
+numpy>=1.21.0
+matplotlib>=3.4.0
+pyrtlsdr>=0.2.93
+reportlab>=3.6.8
+Pillow>=8.3.0
+scipy>=1.7.0
+tkinter
+python-dateutil>=2.8.2
